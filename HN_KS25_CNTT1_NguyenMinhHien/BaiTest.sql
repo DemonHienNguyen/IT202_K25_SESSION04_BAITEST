@@ -16,17 +16,17 @@ CREATE TABLE `Products`(
     FOREIGN KEY (`Category_id`) REFERENCES `Categories`(`Category_id`)
 );
 
-INSERT INTO `Categories` (`Category_name`)
+INSERT INTO `Categories`
 VALUES 
-	('Điện tử'),
-    ('Thời trang');
+	(1,'Điện tử'),
+    (2,'Thời trang');
     
-INSERT INTO `products` (`Product_name`, `Price`, `Stock`, `Category_id`)
+INSERT INTO `products`
 VALUES 
-	('iPhone 15', 25000000, 10, 1),
-    ('Samsung S23', 20000000, 5, 1),
-    ('Áo sơ mi nam', 500000, 50, 2),
-    ('Giày thể thao', 1200000, 20, 2);
+	(1,'iPhone 15', 25000000, 10, 1),
+    (2,'Samsung S23', 20000000, 5, 1),
+    (3,'Áo sơ mi nam', 500000, 50, 2),
+    (4,'Giày thể thao', 1200000, 20, 2);
     
 UPDATE `products`
 SET `Price` = 26000000
