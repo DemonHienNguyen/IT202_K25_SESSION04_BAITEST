@@ -41,7 +41,7 @@ WHERE `Product_id` = 4;
 
 DELETE FROM `products`
 WHERE `Price` < 1000000;
-
+-- BÀI NÀY CỦA NGUYỄN MÌNH HIỂN :Đ
 -- LỆNH XÓA HẾT LẠI
 -- DELETE FROM `products`;
 
